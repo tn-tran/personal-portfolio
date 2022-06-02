@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>Tien Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="Logo">
+      <img src="/assets/logo.png" alt="">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="../index.html#services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="../index.html#about" class="nav__link">About me</a></li>
+        <li class="nav__item"><a href="../index.html#work" class="nav__link">My Work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introduction -->
+  <section class="intro">
+    <h1 class="section__title section__title--intro">
+      Support<strong>Ticketing System</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro"></p>
+    <img src="/assets/support-ticket-system.png" alt="" class="intro__img">
+  </section>
+  <!-- Body -->
+  <div class="portfolio-item-individual">
+    <p><strong>Challenge:</strong> </p>
+    <img src="/assets/support-ticket-system-detail.png" alt="">
+    <p><strong>Solution:</strong> </p>
+    <p><strong>Outcome:</strong> </p>
+    <div class="portfolio-item-individual__button-container">
+      <a href="https://tien-support-ticketing-system.herokuapp.com/" class="btn"><i class="fa-solid fa-link"></i> Link</a>
+      <a href="https://github.com/tn-tran/support-ticketing-system" class="btn"><i class="fa-brands fa-github"></i> Code</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="mailto:tientran-developer@gmail.com" class="footer__link">tientran-developer@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a href="https://github.com/tn-tran" class="social-list__link" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a href="https://www.linkedin.com/in/tnt/" class="social-list__link" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
